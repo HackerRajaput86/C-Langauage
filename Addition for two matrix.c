@@ -1,6 +1,7 @@
 #include <stdio.h>
 void main() {
   int r, c, A[100][100], B[100][100], C[100][100], i, j;
+  // c = Coloum of Matrix , r = Row of Matrix 
   printf("Enter the number of rows (between 1 and 100): ");
   scanf("%d", &r);
   printf("Enter the number of columns (between 1 and 100): ");
