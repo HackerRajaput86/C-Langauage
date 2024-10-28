@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<math.h>
+void main()
+{
+    float x,Squareroot,Log,Squre,Qube,LogValue;
+
+    printf("Enter any numeric Value:\n");
+    scanf("%f",&x);
+
+    
+    Squre=pow(x,2);
+    Squareroot=sqrt(x);
+    Qube=pow(x,3);
+    LogValue=log(x);
+
+    printf("Squre=%f\nQube=%f\nSquareroot=%f\nLogValue=%f\n",Squre,Qube,Squareroot,LogValue);
+
+}
