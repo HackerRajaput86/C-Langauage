@@ -6,7 +6,7 @@ int main (){
 
     int size , element , pos , i ;
         // Input the size of Array
-    printf("Enter the size of array :\n");
+    printf("Enter the size of array  (between 1 to 100) :\n");
         scanf("%d",&size);
 
     int arr[size];
